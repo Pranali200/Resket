@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">AndroidProject</string>
+    <string-array name="SELECT">
+        <item>1st Sem</item>
+        <item>2nd Sem</item>
+        <item>3rd Sem</item>
+        <item>4th Sem</item>
+        <item>5th Sem</item>
+        <item>6th Sem</item>
+    </string-array>
+
+    <string-array name="Sem1">
+        <item>English</item>
+        <item>Basic Science </item>
+        <item>Basic Mathematics</item>
+        <item>Fundamentals of ICT</item>
+        <item>Engineering Graphics</item>
+        <item>Workshop Practice</item>
+
+    </string-array>
+
+    <string-array name="Sem2">
+        <item>Elements of Electrical Engineering</item>
+        <item>Applied Mathematics</item>
+        <item>Basic Electronics</item>
+        <item>Programming in C</item>
+        <item>Business Communication Using Computers</item>
+        <item>Computer Peripherals and Hardware Maintenance</item>
+        <item>Web Page Designing with HTML</item>
+    </string-array>
+
+    <string-array name="Sem3">
+        <item>OOP Using C++</item>
+        <item>Data Structure Using C</item>
+        <item>Computer Graphics</item>
+        <item>Database Management System</item>
+        <item>Digital Techniques</item>
+    </string-array>
+
+    <string-array name="Sem4">
+        <item>JAVA Programming</item>
+        <item>Software Engineering</item>
+        <item> Data CommunicationComputer Network</item>
+        <item>Microprocessors</item>
+        <item>GUI Application Development using VB.NET</item>
+    </string-array>
+
+    <string-array name="Sem5">
+        <item>Environmental Studies</item>
+        <item>Operating System</item>
+        <item> Advanced JAVA Programming</item>
+        <item>Software Testing</item>
+        <item>CSS</item>
+    </string-array>
+
+    <string-array name="Sem6">
+        <item>Web Based Application Development with PHP</item>
+        <item>Mobile Application Development</item>
+        <item>Management</item>
+        <item>Programming with Python</item>
+        <item>ETI</item>
+    </string-array>
+
+</resources>
+
+

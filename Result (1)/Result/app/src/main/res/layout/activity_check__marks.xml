@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".Check_Marks">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="312dp"
+        android:layout_height="97dp"
+        android:background="#8BC34A"
+        android:filterTouchesWhenObscured="true"
+        android:fontFamily="serif"
+        android:foregroundGravity="center"
+        android:gravity="center_horizontal"
+        android:selectAllOnFocus="true"
+        android:text="Check your marks by selecting  your Semester and Subject"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#0E1A5C"
+        android:textColorHint="#D13434"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Spinner
+        android:id="@+id/sp2"
+        android:layout_width="286dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401" />
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_width="291dp"
+        android:layout_height="49dp"
+        android:entries="@array/SELECT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.267" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="244dp"
+        android:text="View Marks"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:backgroundTint="#071875"
+        app:iconTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FFFFFF" />
+</androidx.constraintlayout.widget.ConstraintLayout>
